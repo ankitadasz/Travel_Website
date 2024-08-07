@@ -1,26 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
 }
-:root{
-    --primary-textcolor:rgb(53, 48, 48);
-    --secondary-textcolor:rgb(43, 40, 40);
-    --primary-font-family:font-family: 'Ranade', sans-serif;
-    --secondary-font-family: 'Clash Display', sans-serif;
 
-
+:root {
+    --primary-textcolor: rgb(53, 48, 48);
+    --secondary-textcolor: rgb(43, 40, 40);
+    --primary-font-family: 'Ranade', sans-serif;
+    --secondary-font-family: 'Clash Grotesk', sans-serif;
 }
+
 .bgimg {
-   width: 100%;
-   height: 100vh;
+    width: 100%;
+    height: 100vh;
+    position: relative;
 }
-.bgimg::before{
+
+.bgimg::before {
     content: "";
-    background-image: linear-gradient(to bottom,lightgray, rgba(240, 240, 240, 0)),url(assets/background.jpg);
+    background-image: linear-gradient(to bottom, lightgray, rgba(240, 240, 240, 0)), url(assets/background.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -29,51 +35,81 @@ body{
     height: 100%;
     opacity: 0.5;
     z-index: -1;
-    
 }
-ul li{
+
+ul li {
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 5%;
     left: 23%;
-    gap: 25vw;
+    gap: 20vw;
+    z-index: 1;
 }
-.mid{
-    display: flex;
-    gap: 40px;
-    font-size: 1.2em;
-   
-}
-.right{
-    display: flex;
-    gap: 40px;
-    font-size: 1.2em;
-}
-.mid a{
-    color: var(--secondary-textcolor);
-    font-family: var(--secondary-font-family);
 
+.mid {
+    display: flex;
+    gap: 40px;
+    font-size: 1.2em;
 }
-.right a{
+
+.right {
+    display: flex;
+    gap: 40px;
+    font-size: 1.2em;
+}
+
+.mid a, .right a {
     color: var(--secondary-textcolor);
     font-family: var(--secondary-font-family);
+    font-weight: 600;
+    padding: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transition only the necessary properties */
 }
-.main{
+
+.mid a:hover, .right a:hover {
+    color: white;
+    background-color: black;
+    transform: scale(10px,10px);/*because while adding padding there was showing issues*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.main {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    z-index: 1;
 }
-.main h1{
+
+.main h1 {
     color: var(--primary-textcolor);
     font-family: var(--primary-font-family);
+    font-size: 2.5rem;
+}
+
+.main p {
+    color: var(--secondary-textcolor);
+    font-family: var(--secondary-font-family);
+    text-align: center;
+    padding: 0px 220px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.main h1::first-letter {
+    font-size: 5.5rem;
 }
