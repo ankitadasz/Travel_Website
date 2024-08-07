@@ -7,7 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -73,7 +73,7 @@ a {
     font-family: var(--secondary-font-family);
     font-weight: 600;
     padding: 10px;
-    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transition only the necessary properties */
+    transition: border-radius 0s ease,color 0.3s ease,  transform 0.3s ease, box-shadow 0s ease; /* Transition only the necessary properties */
 }
 
 .mid a:hover, .right a:hover {
@@ -81,6 +81,7 @@ a {
     background-color: black;
     transform: scale(10px,10px);/*because while adding padding there was showing issues*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
 }
 
 .main {
@@ -107,9 +108,23 @@ a {
     text-align: center;
     padding: 0px 220px;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .main h1::first-letter {
     font-size: 5.5rem;
+}
+.btn{
+    width: 10vw;
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    color: white;
+    font-family: var(--primary-font-family);
+    background-color: #d46300;
+    padding: 4px;
+}
+ a{
+    margin-top: 5px;
 }
