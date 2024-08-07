@@ -7,7 +7,7 @@
    width: 100%;
    height: 100vh;
 }
-/*.bgimg::before{
+.bgimg::before{
     content: "";
     background-image: linear-gradient(to bottom,lightgray, rgba(240, 240, 240, 0)),url(assets/background.jpg);
     background-repeat: no-repeat;
