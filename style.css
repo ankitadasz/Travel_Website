@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Modern+Antiqua&family=Montserrat:wght@100..900&family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -139,43 +140,57 @@ a {
     display: flex;
     justify-content: center;
     align-content: center;
-    gap:8px;
-    overflow: hidden;
-    object-fit: cover;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    left: 0px;
-    right: 0px;
+    gap:3px;
     
+}
+#box p{
+    font-size: 1.2rem;
+    color: var(--secondary-textcolor);
+    font-family: var(--primary-font-family);
 }
 #taj{
     width: 300px;
     height: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 .img1{
-    padding: 20px;
+    width: 640px;
+    padding: 10px;
     background-color: antiquewhite;
     border-radius: 30px;
     text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    margin-left: 1px;
+    
 }
 #redfort{
     width: 300px;
     height: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 .img2{
-    padding: 20px;
+    width: 640px;
+    padding: 10px;
     background-color: antiquewhite;
     border-radius: 30px;
     text-align: center;
+    border: 3px solid rgb(33, 2, 2);
+    margin-left: 1px;
 }
 #goldtemple{
     width: 300px;
     height: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 .img3{
-    padding: 20px;
+    width: 640px;
+    padding: 10px;
     background-color: antiquewhite;
     border-radius: 30px;
     text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    margin-left: 1px;
 }
