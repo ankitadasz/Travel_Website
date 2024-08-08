@@ -144,13 +144,13 @@ a {
     
 }
 #box h2{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    
     color: var(--primary-textcolor);
     font-family: 'Quilon', sans-serif;
     padding: 20px;
 }
 #box p{
-    font-size: 1.2rem;
     color: var(--secondary-textcolor);
     font-family: var(--primary-font-family);
 }
@@ -199,4 +199,7 @@ a {
     text-align: center;
     border: 3px solid #ab2a51;
     margin-left: 1px;
+}
+#about{
+    display: flex;
 }
