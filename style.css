@@ -143,6 +143,12 @@ a {
     gap:3px;
     
 }
+#box h2{
+    font-size: 1.6rem;
+    color: var(--primary-textcolor);
+    font-family: 'Quilon', sans-serif;
+    padding: 20px;
+}
 #box p{
     font-size: 1.2rem;
     color: var(--secondary-textcolor);
@@ -157,10 +163,10 @@ a {
 .img1{
     width: 640px;
     padding: 10px;
-    background-color: antiquewhite;
+    background-color: #F1D3CE;
     border-radius: 30px;
     text-align: center;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid #a24360;
     margin-left: 1px;
     
 }
@@ -173,10 +179,10 @@ a {
 .img2{
     width: 640px;
     padding: 10px;
-    background-color: antiquewhite;
+    background-color: #F1D3CE;
     border-radius: 30px;
     text-align: center;
-    border: 3px solid rgb(33, 2, 2);
+    border: 3px solid #a23556;
     margin-left: 1px;
 }
 #goldtemple{
@@ -188,9 +194,9 @@ a {
 .img3{
     width: 640px;
     padding: 10px;
-    background-color: antiquewhite;
+    background-color: #F1D3CE;
     border-radius: 30px;
     text-align: center;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid #ab2a51;
     margin-left: 1px;
 }
