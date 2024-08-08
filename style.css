@@ -250,12 +250,50 @@ a {
    text-align: center;
    padding: 20px;
 }
-#contact{
+.info{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
+}
+.cnt{
+    padding: 40px;
+    gap: 30px;
 }
 #name{
-    width: 30vw;
+  width: 30vw;
+  height: 6vh;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
+#mail{
+    width: 30vw;
+    height: 6vh;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+  #no{
+    width: 30vw;
+    height: 6vh;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+  #txt{
+    width: 30vw;
+    height: 25vh;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+  #btn {
+   padding: 13px;
+    position: absolute;
+    left: 46%;
+    width: 10vw;
+    height: 7vh;
+    color: white;
+    font-family: var(--primary-font-family);
+    background-color: orange;
+    border: 2px solid black;
+    
+  }
