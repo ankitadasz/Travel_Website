@@ -296,4 +296,13 @@ a {
     background-color: orange;
     border: 2px solid black;
     
+    
   }
+  #footer {
+
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
