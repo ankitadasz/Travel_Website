@@ -111,7 +111,6 @@ a {
     color: var(--secondary-textcolor);
     font-family: var(--secondary-font-family);
     text-align: center;
-    padding: 0px 220px;
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -329,11 +328,89 @@ a {
     margin-top: auto; /* Ensures the footer stays at the bottom */
 }
 @media screen and (max-width:425px){
+    .bgimg {
+        width: 159vw;
+        height: 166vh;
+        position: relative;
+    }
+    
     #logoimg{
         width: 30px;
         height: 30px;
         position: absolute;
         top: 0%;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 5%;
+        left: 8%;
+        gap: 10vw;
+        z-index: 1;
+    }
+    
+    .mid {
+        display: flex;
+        gap: 60px;
+        font-size: 1.2em;
+    }
+    
+    .right {
+        display: flex;
+        gap: 20px;
+        font-size: 1.2em;
+        position: absolute;
+        top: 10vh;
+        left: 70%;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 38px;
+        z-index: 1;
+        position: absolute;
+        top: 31%;
+        left: 35%;
+    }
+    
+    .main h1 {
+        color: var(--primary-textcolor);
+        font-family: var(--primary-font-family);
+        font-size: 3.5rem;
+
+    }
+    
+    .main p {
+        font-size: 1.2rem;
+        padding-top: 5%;
+        width: 160%; /* Adjust width to ensure two lines */
+        line-height: 1.5rem; /* Adjust line height for better readability */
+        margin-left: 10px;
+        
+    }
+    
+    .main h1::first-letter {
+        font-size: 5.5rem;
+    }
+    .btn {
+        width: 10vw;
+        height: 50px;
+        position: absolute;
+        top: 30000%;
+        left: 45%;
+        color: white;
+        font-family: var(--primary-font-family);
+        background-color: #d46300;
+        padding: 4px;
+    }
+    
+    a {
+        margin-top: 5px;
     }
 
     
