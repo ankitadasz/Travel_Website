@@ -335,8 +335,8 @@ a {
     }
     
     #logoimg{
-        width: 30px;
-        height: 30px;
+        width: 10px;
+        height: 10px;
         position: absolute;
         top: 0%;
     }
@@ -346,16 +346,16 @@ a {
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 5%;
-        left: 8%;
-        gap: 10vw;
+        top: 3%;
+        left: 3%;
+        gap: 4vw;
         z-index: 1;
     }
     
     .mid {
         display: flex;
-        gap: 60px;
-        font-size: 1.2em;
+        gap: 10px;
+        font-size: 0.7em;
     }
     
     .right {
