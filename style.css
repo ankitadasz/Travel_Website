@@ -360,11 +360,11 @@ a {
     
     .right {
         display: flex;
-        gap: 20px;
-        font-size: 1.2em;
+        gap: 10px;
+        font-size: 0.7em;
         position: absolute;
-        top: 10vh;
-        left: 70%;
+        top: 7vh;
+        left: 60%;
     }
     .main {
         display: flex;
